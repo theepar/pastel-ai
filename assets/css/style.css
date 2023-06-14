@@ -11,13 +11,13 @@ body {
 
 @font-face {
     font-family: "mont";
-    src: url("./font/mont-heavydemo-webfont.woff") format("woff");
+    src: url("css/font/mont-heavydemo-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "mont-light";
-    src: url("./font/mont-extralightdemo-webfont.woff") format("woff");
+    src: url("css/font/mont-extralightdemo-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
