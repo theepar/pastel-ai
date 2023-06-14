@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    position: relative;
+}
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+@font-face {
+    font-family: "mont";
+    src: url("./font/mont-heavydemo-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "mont-light";
+    src: url("./font/mont-extralightdemo-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bg img {
+    margin-left: 97vh;
+    margin-top: 1.7vh;
+    border-radius: 35px;
+    position: relative;
+    z-index: 0;
+}
+h1 {
+    font-family: "mont";
+    width: 30%;
+    font-size: 60px;
+}
+p {
+    font-family: "calibri";
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 5vh;
+    width: 22%;
+    font-size: 22px;
+    color: rgb(0, 0, 0, 0.7);
+}
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    z-index: 9;
+}
+.caption {
+    margin-left: 15vh;
+    margin-top: -80vh;
+}
+.get-start1 {
+    background: rgb(179, 98, 255);
+    background: linear-gradient(
+        180deg,
+        rgba(179, 98, 255, 1) 0%,
+        rgba(132, 0, 255, 1) 76%
+    );
+    padding: 15px 10px 15px 10px;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 175vh;
+    margin-top: -51vh;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.get-start2 {
+    background: rgb(72, 198, 81);
+    background: linear-gradient(
+        180deg,
+        rgb(75, 182, 82) 0%,
+        rgb(45, 197, 53) 100%
+    );
+    padding: 15px 10px 15px 10px;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50vh;
+    margin-left: 15vh;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+/*Progress Bar*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 700px;
+    margin-top: -29vh;
+    margin-left: 7vh;
+}
+
+.progress-bar__container {
+    width: 80%;
+    height: 1rem;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+    will-change: transform;
+    box-shadow: 0 0 5px rgba(132, 0, 255, 1);
+}
+
+.progress-bar {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: rgba(132, 0, 255, 1);
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.user-l h1 {
+    font-size: 20px;
+    margin-top: -6vh;
+    margin-left: 55vh;
+}
+.user-l p {
+    font-size: 15px;
+    margin-top: 0vh;
+    margin-left: 55vh;
+}
+.user-r h1 {
+    font-size: 20px;
+    margin-top: -58vh;
+    margin-left: 15vh;
+}
+.user-r p {
+    font-size: 15px;
+    margin-top: 0vh;
+    margin-left: 15vh;
+}
+
+.chat-ai {
+    width: 92vh;
+    height: 70px;
+    background: rgb(255, 255, 255, 0.7);
+    margin-left: 102vh;
+    border-radius: 15px;
+}
+.prompt-ai {
+    width: 16vh;
+    height: 58px;
+    background: rgb(255, 255, 255, 1);
+    margin-left: 177vh;
+    border-radius: 15px;
+    margin-top: -6.7vh;
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.2);
+}
+.text-ai p {
+    font-size: 20px;
+    font-family: "mont";
+    margin-top: -4.2vh;
+    margin-left: 110vh;
+    color: rgb(0, 0, 0, 0.7);
+}
+.text-promt p {
+    font-size: 17px;
+    font-family: "mont";
+    margin-top: -3.2vh;
+    margin-left: 182vh;
+    color: rgb(0, 0, 0, 0.7);
+}
+.icon {
+    margin-top: -85vh;
+    margin-left: 15vh;
+    position: relative;
+}
+.icon img {
+    height: 55px;
+    width: 55px;
+}
+.icon2 {
+    margin-top: 74.5vh;
+    margin-left: 104vh;
+    position: relative;
+}
+.icon2 img {
+    height: 45px;
+    width: 45px;
+}
